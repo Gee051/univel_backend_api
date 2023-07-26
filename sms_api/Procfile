@@ -1,0 +1,1 @@
+web:python manage.py makemigrations && python manage.py migrate && gunicorn student_management_api.wsgi --log-file
